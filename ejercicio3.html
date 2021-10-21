@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales 3</title>
+</head>
+<body>
+    <script>
+        /*
+        Un estudiante desea conocer su promedio de 4 parciales y conocer si aprueba o reprueba el semestre
+        muestre como salida el promedio de los parciales.
+        Realizado por: Anibal Lara.
+        */
+        alert("Ingrese las notas parciales del alumno")
+        var nota1=parseInt(prompt("Ingrese la Nota del Primer Parcial"))
+        var nota2=parseInt(prompt("Ingrese la Nota del Segundo Parcial"))
+        var nota3=parseInt(prompt("Ingrese la Nota del Tercer Parcial"))
+        var nota4=parseInt(prompt("Ingrese la Nota del Cuarto Parcial"))
+        var Notafinal=nota1+nota2+nota3+nota4
+        var promedio= Notafinal/4
+        alert("El promedio del Alumno es de:" +  promedio)
+        if(promedio >= 70){
+        alert(`El alumno Aprueba el Semestre`)
+        }else{
+        alert(`El alumno Reprueba el Semestre`)
+        }
+
+    </script>
+</body>
+</html>
